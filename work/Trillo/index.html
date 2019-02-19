@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+			integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+			crossorigin="anonymous"
+		/>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Trillo</title>
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<img src="img/Trillo.png" alt="" class="logo" />
+
+				<form action="#" class="search">
+					<input type="text" class="search__input" placeholder="Search hotels" />
+					<button class="search__button">
+						<i class="fas fa-search"></i>
+					</button>
+				</form>
+
+				<nav class="user-nav">
+					<div class="user-nav__icon-box">
+						<i class="fas fa-bookmark"></i>
+						<span class="user-nav__notification">7</span>
+					</div>
+					<div class="user-nav__icon-box">
+						<i class="fas fa-comment-alt"></i>
+						<span class="user-nav__notification">13</span>
+					</div>
+					<div class="user-nav__user">
+						<img src="img/people5.jpg" alt="user-photo" class="user-nav__user-photo" />
+						<span class="user-nav__user-name">Jonas</span>
+					</div>
+				</nav>
+			</header>
+			<!--END HEADER-->
+
+			<!--CONTENT-->
+
+			<div class="content">
+				<!--SIDEBAR-->
+				<nav class="sidebar">
+					<ul class="side-nav">
+						<li class="side-nav__item  side-nav__item--active">
+							<a href="#" class="side-nav__link">
+								<i class="fas fa-home"></i>
+								<span>Home</span>
+							</a>
+						</li>
+						<li class="side-nav__item">
+							<a href="#" class="side-nav__link">
+								<i class="fas fa-plane"></i>
+								<span>Flight</span>
+							</a>
+						</li>
+						<li class="side-nav__item">
+							<a href="#" class="side-nav__link">
+								<i class="fas fa-key"></i>
+								<span>Car Rentals</span>
+							</a>
+						</li>
+						<li class="side-nav__item">
+							<a href="#" class="side-nav__link">
+								<i class="far fa-map"></i>
+								<span>Tours</span>
+							</a>
+						</li>
+					</ul>
+					<div class="legal">
+						Copyright &copy; 2019
+					</div>
+				</nav>
+				<!--END SIDEBAR-->
+
+				<main class="hotel-view">
+					<div class="gallery">
+						<figure class="gallery__item">
+							<img src="img/hotel1.jpg" alt="Hotel 1 Pic" class="gallery__photo" />
+						</figure>
+						<figure class="gallery__item">
+							<img src="img/hotel5.jpg" alt="Hotel 5 Pic" class="gallery__photo" />
+						</figure>
+						<figure class="gallery__item">
+							<img src="img/hotel4.jpg" alt="Hotel 4 Pic" class="gallery__photo" />
+						</figure>
+					</div>
+
+					<div class="overview">
+						<h1 class="overview__heading">Hotel Las Palmas</h1>
+						<div class="overview__stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+						<div class="overview__location">
+							<i class="fas fa-map-marker-alt"></i>
+							<button class="btn-inline">Albufeira, Portugal</button>
+						</div>
+						<div class="overview__rating">
+							<div class="overview__rating--average">8.6</div>
+							<div class="overview__rating-count">429 votes</div>
+						</div>
+					</div>
+
+					<div class="detail">
+						<div class="description">
+							<p class="paragraph">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit adipisci, 
+								ipsam dicta nisi nemo dignissimos rem optio, est itaque quibusdam tempore blanditiis 
+								voluptatem voluptas nulla ex, mollitia perferendis veniam atque autem in quasi corrupti repellat alias!
+							</p>
+							<p class="paragraph">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, cum? Et iure ad, quo labore
+								tempore doloremque qui veritatis voluptatum, dolore recusandae dicta omnis obcaecati laudantium vero quis.
+							</p>
+							<ul class="list">
+								<li class="list__item">Close to the beach</li>
+								<li class="list__item">Breakfast included</li>
+								<li class="list__item">Free airport shuttle</li>
+								<li class="list__item">Free wifi in all rooms</li>
+								<li class="list__item">Air conditioning and heating</li>
+								<li class="list__item">Pets allowed</li>
+								<li class="list__item">We spaek all languages</li>
+								<li class="list__item">Perfect for families</li>
+							</ul>
+							<div class="recommend">
+								<p class="recommend__count">
+									Lucy and three others recommend this hotel
+								</p>
+								<div class="recommend__friends">
+									<img src="img/people3.jpg" alt="Friend 1" class="recommend__photo">
+									<img src="img/people4.jpg" alt="Friend 2" class="recommend__photo">
+									<img src="img/people8.jpg" alt="Friend 3" class="recommend__photo">
+									<img src="img/people6.jpg" alt="Friend 4" class="recommend__photo">
+								</div>
+							</div>
+						</div>
+						<div class="user-reviews">
+							<figure class="review">
+								<blockquote class="review__text">
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+									Harum nihil ducimus officiis necessitatibus maxime pariatur sit, doloribus accusantium ipsum perferendis.
+								</blockquote>
+								<figcaption class="review__user">
+									<img src="img/people2.jpg" alt="user 1" class="review__photo">
+									<div class="review__user-box">
+										<p class="review__user-name">Nick Snith</p>
+										<p class="review__user-date">Feb 12, 2018</p>
+									</div>
+									<div class="review__rating">7.8</div>
+								</figcaption>
+							</figure>
+							<figure class="review">
+								<blockquote class="review__text">
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis tenetur 
+									molestiae veniam consequuntur quis vel, dignissimos nihil earum assumenda.
+								</blockquote>
+								<figcaption class="review__user">
+									<img src="img/people1.jpg" alt="user 2" class="review__photo">
+									<div class="review__user-box">
+										<p class="review__user-name">Mary Thomas</p>
+										<p class="review__user-date">Sept 13th, 2018</p>
+									</div>
+									<div class="review__rating">9.3</div>
+								</figcaption>
+							</figure>
+							<button class="btn-inline">Show All <span>&rarr;</span></button>
+						</div>
+					
+					</div>
+					<div class="cta">
+						<h2 class="cta__book-now">good news! We have 4 free rooms for your selected dates!</h2>
+						<button class="btn">
+							<span class="btn__visible">Book now</span>
+							<span class="btn__invisible">Only 4 rooms left</span>
+						</button>
+					</div>
+				</main>
+			</div>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>
